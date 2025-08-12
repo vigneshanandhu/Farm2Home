@@ -1,0 +1,27 @@
+.customer-photo img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-left: 110px;
+}
+.customer-name{
+    padding-left: 150px;
+}
+.testimonial-container{
+    display:flex;
+}
+.testimonial-text{
+    font-size:15px;
+    text-align:center;
+}
+.star-rating{
+    margin-left:40px
+}
+@media(max-width:425px){
+    .testimonial-container{
+        display:block;
+    }
+    .star-rating{
+         margin-left:-40px
+    }
+}

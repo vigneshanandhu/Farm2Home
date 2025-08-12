@@ -1,0 +1,30 @@
+{
+  "defaults": {
+    "project": 1,
+    "env": 1
+  },
+  "actives": {
+    "project": 1,
+    "env": 1
+  },
+  "projects": [
+    {
+      "idx": 1,
+      "id": "17218000000010112",
+      "name": "Farm2Home",
+      "domain": {
+        "id": "50030269916",
+        "name": "farm2home-60045298229.development"
+      },
+      "timezone": "Asia/Kolkata",
+      "env": [
+        {
+          "idx": 1,
+          "id": "60045298229",
+          "name": "Development",
+          "type": 3
+        }
+      ]
+    }
+  ]
+}

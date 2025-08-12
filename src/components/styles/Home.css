@@ -1,0 +1,9 @@
+.background{
+   background-image: url('../images/homeimage.jpg');
+   background-size: cover;
+    height: 600px;
+   
+}
+#home-txt h2{
+    padding-top: 200px;
+}

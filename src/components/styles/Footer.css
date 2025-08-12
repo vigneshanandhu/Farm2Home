@@ -1,0 +1,15 @@
+.footer-box{
+    height: 150px;
+    width: 100%;
+    border: 1px solid black;
+}
+.footer-icons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+    
+}
+.icons{
+    font-size: 6;
+}
