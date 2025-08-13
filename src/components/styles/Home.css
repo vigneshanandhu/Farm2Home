@@ -1,9 +1,49 @@
 .background{
    background-image: url('../images/homeimage.jpg');
    background-size: cover;
+  
     height: 600px;
    
 }
 #home-txt h2{
     padding-top: 200px;
 }
+.highlights-bar {
+  width: 100%;
+  overflow: hidden;
+  background: #222;
+  color: #fff;
+  white-space: nowrap;
+  font-weight: bold;
+  font-size: 1.1rem;
+  border-bottom: 2px solid #3399cc;
+  margin-bottom: 0.5rem;
+  position: relative;
+}
+
+.highlights-track {
+  display: inline-block;
+  min-width: 200vw; /* Make it much wider than the container */
+  padding: 0.5rem 0;
+  animation: highlights-scroll 30s linear infinite;
+}
+
+.highlight-item {
+  margin-right: 3rem;
+  display: inline-block;
+}
+
+@keyframes highlights-scroll {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+
+.home-main {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+}
+

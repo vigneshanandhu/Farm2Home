@@ -44,8 +44,7 @@ const Cart = () => {
       description: 'Order Payment',
       handler: function (response) {
         alert('Payment successful! Payment ID: ' + response.razorpay_payment_id);
-        // Optionally clear cart here
-        // clearCart();
+        clearCart(); // Clear cart after payment
       },
       prefill: {
         name: 'vignesh',
@@ -121,3 +120,4 @@ const Cart = () => {
 }
 
 export default Cart;
+
