@@ -37,7 +37,7 @@ const Cart = () => {
     }
 
     const options = {
-      key: 'rzp_test_ZfLlbDNrwviaJy', // Replace with your Razorpay key
+      key: 'rzp_test_R6KTxj21EIK1Yf', // Replace with your Razorpay key
       amount: totalPrice * 100, // Amount in paise
       currency: 'INR',
       name: 'FoodyStore',
